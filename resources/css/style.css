@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Lora", sans-serif;
+  background-color: #ebfaeb;
+}
+
+.yeseva {
+  font-family: "Yeseva One", serif;
+  font-size: 1.5rem;
+}
+
+.lora {
+  font-family: "Lora", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display SC", serif;
+}
+
+a {
+  color: #001a00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+}
+
+header p  {
+  padding-top: 5px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo2 {
+  text-transform: uppercase;
+}
+
+#desktop {
+  display: block;
+}
+
+#desktop a {
+  margin-left: 16px;
+}
+
+#mobile {
+  display: none;
+}
+
+/* Main-section */
+
+#learn {
+  background-color: #009933;
+  padding: 32px 24px;
+  display: flex;
+}
+
+#learn h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: #004d1a;
+  color: #ebfaeb;
+  border: 0;
+  font-family: "Lora", sans-serif;
+  font-size: 1rem;
+  padding: 8px 0;
+}
+
+button:hover {
+  background-color: #ebfaeb;
+  color: #001a00;
+}
+
+.main-img-header {
+  width: 60%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+
+/* Info-section */
+
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+}
+
+#practice h3 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+  font-family: "Lora", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+#practice a {
+  text-decoration: underline;
+}
+
+#practice a:hover {
+  text-decoration: none;
+}
+
+.practice-main {
+  padding: 32px 24px;
+  border-right: 1px solid #009933;
+}
+
+.practice-img {
+  width: 100%;
+  height: auto;
+}
+
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.campus-info {
+  min-width: 423px;
+}
+
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid #009933;
+}
+
+.main-img-campus-info {
+  max-width: 33%;
+  height: auto;
+  margin: 16px;
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+.img-campus-info-mobile {
+  display: none;
+}
+
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.green {
+  background-color: #009933;
+}
+
+/* Courses */
+
+#learning {
+  background-color: #009933;
+  padding-bottom: 16px;
+}
+
+#learning h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#learning h3 {
+  font-family: "Lora", sans-serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.course {
+  background-color: #ebfaeb;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.main-course {
+  background-color:  #e6ffe6;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.main-course-txt {
+  padding: 16px 16px;
+}
+
+.main-course-img {
+  width: 100%;
+  height: auto;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Thesis */
+
+#thesis h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.main-thesis {
+  width: 100%;
+  display: flex;
+}
+
+.main-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.main-thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+
+.main-thesis-txt p {
+  margin-top: 16px;
+}
+
+.main-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+.thesis-info-single {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.main-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #2eb82e;
+  color: #051405;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+.links {
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 710px) {
+
+#desktop {
+  display: none;
+}
+
+#mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: none;
+}
+
+#learn {
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.main-img-header {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: 32px 16px;
+  width: 100%;
+}
+
+#practice {
+  padding-bottom: 16px;
+}
+
+.practice-main {
+  display: none;
+}
+
+.campus-info {
+  width: 100%;
+}
+
+.campus-info-single {
+  flex-flow: wrap column;
+  border: 0;
+  height: auto;
+}
+
+.main-img-campus-info {
+  min-width: 100%;
+  margin: 0;
+  padding: 16px;
+}
+
+.img-campus-info {
+  display: none;
+}
+
+.img-campus-info-mobile {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.green {
+  background-color: #009933;
+}
+
+.campus-info-text {
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+#learning {
+  padding-bottom: 24px;
+}
+
+#learning h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  padding: 32px 0 8px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  line-height: 0.5rem;
+}
+
+.courses {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.course {
+  width: 100%;
+  margin: 8px 16px;
+  padding: 0;
+}
+
+.main-course-txt h3, p {
+  display: none;
+}
+
+.main-course-img {
+  display: none;
+}
+
+.course-img {
+  display: none;
+}
+
+.main-vid {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+#thesis {
+  padding-bottom: 24px;
+}
+.main-thesis-txt {
+  display: none;
+}
+
+.main-thesis-info {
+  display: none;
+}
+
+footer {
+  justify-content: flex-start;
+}
+
+.links {
+  display: none;
+}
+}
